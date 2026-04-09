@@ -8,7 +8,7 @@
 *
 * Name: YI-LIEN HSIEH Student ID: 105889240 Date: 04-06-2026
 *
-* Vercel App (Deployed) Link: _____________________________________________________
+* Vercel App (Deployed) Link: https://web422-a3-dfgg.vercel.app
 *
 ********************************************************************************/
 
