@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(135deg, #e8dcc8 0%, #d4c5a9 50%, #c0ad8f 100%);
+  min-height: 100vh;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #2c2416;
+}
+
+
+.table-hover tbody tr:hover {
+  cursor: pointer;
+  background-color: #d4c5a9 !important;
+}
+
+
+.container {
+  background: linear-gradient(to bottom, #faf8f3, #f5f0e8);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(44, 36, 22, 0.15);
+  border: 1px solid #d4c5a9;
+}
+
+
+.navbar {
+  background-color: #f5f0e8 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #c0ad8f;
+}
+
+
+.navbar-brand {
+  color: #3d3020 !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.3rem;
+}
+
+.nav-link {
+  color: #3d3020 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #6b5437 !important;
+  background-color: rgba(192, 173, 143, 0.2);
+  border-radius: 4px;
+}
+
+.card.bg-light {
+  background: linear-gradient(to right, #f5f0e8, #e8dcc8) !important;
+  border: 2px solid #c0ad8f;
+  box-shadow: 0 3px 10px rgba(44, 36, 22, 0.12);
+}
+
+.card-body {
+  color: #2c2416;
+  font-weight: 500;
+}
+
+.table {
+  background-color: rgba(250, 248, 243, 0.95);
+  border: 1px solid #d4c5a9;
+}
+
+.table thead {
+  background: linear-gradient(to bottom, #c0ad8f, #b09d7f);
+  color: #faf8f3;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 0.9rem;
+}
+
+.table tbody tr {
+  border-bottom: 1px solid #e8dcc8;
+}
+
+a {
+  color: #8b6f47;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6b5437;
+  text-decoration: underline;
+}
+
+.pagination .page-link {
+  background-color: #f5f0e8;
+  border: 1px solid #c0ad8f;
+  color: #3d3020;
+  font-weight: 500;
+}
+
+.pagination .page-link:hover {
+  background-color: #e8dcc8;
+  border-color: #b09d7f;
+  color: #2c2416;
+}
+
+.pagination .page-item.active .page-link {
+  background: linear-gradient(to bottom, #8b6f47, #6b5437);
+  border-color: #6b5437;
+  color: #faf8f3;
+}
+
+h3, h5 {
+  color: #3d3020;
+  font-family: 'Georgia', serif;
+}
+
+p {
+  line-height: 1.8;
+  color: #3a3a3a;
+}
